@@ -1,4 +1,4 @@
 <script setup></script>
 <template>
-  <h3>Dear Vany,</h3>
+  <h3>Gallery</h3>
 </template>

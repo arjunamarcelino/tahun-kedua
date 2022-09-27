@@ -1,9 +1,9 @@
 <script setup>
-import TheJourney from "../components/TheJourney.vue";
+import TheGallery from "../components/TheGallery.vue";
 </script>
 
 <template>
   <main>
-    <TheJourney />
+    <TheGallery />
   </main>
 </template>

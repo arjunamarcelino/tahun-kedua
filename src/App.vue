@@ -73,6 +73,13 @@ nav a:first-of-type {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 8%;
+    overflow-x: hidden;
   }
 
   nav {
