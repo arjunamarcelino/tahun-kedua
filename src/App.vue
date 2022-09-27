@@ -1,30 +1,26 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <MainTitle msg="2-Year Anniversary" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/journey">Our Journey</RouterLink>
+        <RouterLink to="/letter">Letter</RouterLink>
+        <RouterLink to="/gallery">Gallery</RouterLink>
+        <RouterLink to="/gifts">Gifts</RouterLink>
       </nav>
     </div>
   </header>
 
   <RouterView />
 </template>
+
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+import MainTitle from "./components/MainTitle.vue";
+</script>
 
 <style scoped>
 header {
