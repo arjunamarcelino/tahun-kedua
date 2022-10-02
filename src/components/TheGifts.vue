@@ -1,25 +1,25 @@
 <template>
-  <h3 style="margin-bottom: 30px">
-    bukan hadiah sih, tapi ada sedikit video tentang kita satu tahun kebelakang
-    hadiahnya nyusul nanti bulan Desember, hehehehe
-  </h3>
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/x2k21sYDkYA"
-    title="selamat dua tahun"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-  <h3 style="margin-top: 30px; margin-bottom: 50px">SEMOGA SUKAA!!!</h3>
-  <p>Pesan dan kesan:</p>
-  <textarea
-    v-model="message"
-    placeholder="ayo mari berkata sejujur-jujurnya"
-    style="min-width: 550px; min-height: 80px"
-  ></textarea>
-  <button @click="sendMessage">Kirim</button>
+  <div class="gifts">
+    <h3 style="margin-bottom: 30px">
+      bukan hadiah sih, tapi ada sedikit video tentang kita satu tahun
+      kebelakang hadiahnya nyusul nanti bulan Desember, hehehehe
+    </h3>
+    <iframe
+      src="https://www.youtube.com/embed/x2k21sYDkYA"
+      title="selamat dua tahun"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <h3 class="suka">SEMOGA SUKAA!!!</h3>
+    <p>Pesan dan kesan:</p>
+    <textarea
+      v-model="message"
+      placeholder="ayo mari berkata sejujur-jujurnya"
+      class="pesan"
+    ></textarea>
+    <button @click="sendMessage">Kirim</button>
+  </div>
 </template>
 // eslint-disable-next-line prettier/prettier
 
@@ -43,6 +43,10 @@ export default {
 </script>
 
 <style scoped>
+iframe {
+  width: 560px;
+  height: 315px;
+}
 button {
   position: relative;
   background-color: #65c2f5;
@@ -69,5 +73,65 @@ button:after {
   margin-top: -120%;
   opacity: 0;
   transition: all 0.8s;
+}
+
+.pesan {
+  min-width: 550px;
+  min-height: 80px;
+}
+.suka {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1025px) {
+  .gifts {
+    margin-top: 50px;
+    margin-left: 60px;
+    max-width: 420px;
+  }
+  iframe {
+    width: 360px;
+    height: 215px;
+  }
+  .pesan {
+    min-width: 400px;
+    min-height: 80px;
+  }
+  .suka {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gifts {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 426px) {
+  .pesan {
+    min-width: 350px;
+    min-height: 80px;
+  }
+}
+@media (max-width: 376px) {
+  .pesan {
+    min-width: 300px;
+    min-height: 80px;
+  }
+  iframe {
+    width: 260px;
+    height: 165px;
+  }
+}
+
+@media (max-width: 321px) {
+  .pesan {
+    min-width: 270px;
+  }
 }
 </style>

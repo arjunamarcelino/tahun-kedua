@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="profile">
-      <img src="../assets/vany.jpg" style="margin-right: 15px" />
+      <img src="../assets/vany.jpg" class="right" />
       <div>
         <p>
           Ini Vany. Vany itu cewe paling baik, paling cantik, paling keren,
@@ -40,27 +40,93 @@
           Ohiya, arjuna mau ngucapin makasih buat vany karena udah selalu ada
         </p>
       </div>
-      <img src="../assets/arjuna.jpg" style="margin-left: 15px" />
+      <img src="../assets/arjuna.jpg" class="left" />
     </div>
   </div>
 </template>
 
 <style>
+.about {
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.right{
+  margin-right: 15px;
+}
+
+.left{
+  margin-left: 15px;
+}
+
+@media (max-width: 1024px) {
   .about {
-    align-items: center;
+    margin-left: 50px;
+    display: block;
+  }
+  .profile {
+    max-width: 380px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  img {
+    max-height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .profile {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 426px) {
+  .about {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .profile {
-    display: flex;
-    padding: 20px;
+    display: block;
+    padding: 10px;
     border: 1px solid white;
     border-radius: 10px;
     margin-bottom: 20px;
   }
 
-  img {
-    max-width: 200px;
-    border-radius: 10px;
+  .left{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
   }
-
+  
+  .right{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+}
 </style>
