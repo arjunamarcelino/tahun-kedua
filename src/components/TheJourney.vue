@@ -30,7 +30,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       date gada persiapan samsek, mana outfitnya ga proper lagii, hahaha in aja
       deh van
     </p>
-    <p style="margin-top: 10px">Lihat nih foto first date kita HAHAHA</p>
   </JourneyItem>
 
   <JourneyItem>
@@ -47,7 +46,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       first date kita. Masih aja di sini arjuna culun, masa ga persiapan beli
       kue atau apa gitu. Bad banget beli kue di depan orangnya.
     </p>
-    <p style="margin-top: 10px">Lihat nih foto kita rayain ultah kam bareng2</p>
   </JourneyItem>
 
   <JourneyItem>
@@ -77,9 +75,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       menghilangkan keraguan dan menyelesaikan masalah dalam hubungan kita,
       setidaknya begitu dalam pikiran aku
     </p>
-    <p style="margin-top: 10px">
-      Lihat nih foto pertama kita yang sedikit proper
-    </p>
   </JourneyItem>
 
   <JourneyItem>
@@ -94,7 +89,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       aku buat datang jumpain kam. Banyak banget hal yang kita lakuin di situ.
       Jadi pengen motoran lagii bareng kam hehehehe
     </p>
-    <p style="margin-top: 10px">Lihat nih foto kita di motor wkwkwkw</p>
   </JourneyItem>
 
   <JourneyItem>
@@ -108,7 +102,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       Jau2 ke medan biar bisa jumpa vany, WORTH IT BANGETT LOHYAAA. Stop pacaran
       di parkiran, mari realisasikan wacana nonton. CANDA HEHEHEH
     </p>
-    <p style="margin-top: 10px">Lihat nih hasil self photo studio kitaa</p>
   </JourneyItem>
 
   <JourneyItem>
@@ -123,7 +116,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       pol, tapi deg-deg-an parah karena jumpa calon papa dan mama mertua
       heheheheh
     </p>
-    <p style="margin-top: 10px">Lihat nih foto pacaran kita di parkiran</p>
   </JourneyItem>
 
   <JourneyItem>
@@ -137,7 +129,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       SEMARANG AGAIN!!!! Selalu semangat banget kalau udah mau jumpa kam.
       Walaupun satu hari tapi worth it banget, semua kangennya terbayarkannnnn
     </p>
-    <p style="margin-top: 10px">Lihat foto kita nih</p>
   </JourneyItem>
 
   <JourneyItem>
@@ -147,6 +138,7 @@ import SupportIcon from "./icons/IconSupport.vue";
     <template #heading>4 Oktober 2022</template>
 
     <b style="font-weight: bold">TODAYY!!!! Our second year</b>
+    <p>YAYYYAYAYAYYA!!!</p>
   </JourneyItem>
 
   <JourneyItem>
