@@ -29,7 +29,6 @@ i {
   place-content: center;
   width: 32px;
   height: 32px;
-
   color: var(--color-text);
 }
 
@@ -42,12 +41,15 @@ h3 {
 
 @media (min-width: 1024px) {
   .item {
-    margin-top: 0;
     padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
+    height: 30%;
+    top: 27%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 
   i {
-    top: calc(50% - 25px);
+    top: calc(12% - 25px);
     left: -26px;
     position: absolute;
     border: 1px solid var(--color-border);
@@ -71,8 +73,8 @@ h3 {
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
+    top: calc(12% + 25px);
+    height: calc(90% - 5px);
   }
 
   .item:first-of-type:before {
