@@ -24,7 +24,7 @@
   display: flex;
 }
 img {
-  max-height: 150px;
+  max-height: 200px;
 }
 .isi {
   padding-top: 60px;
