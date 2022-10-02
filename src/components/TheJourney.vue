@@ -56,7 +56,10 @@ import SupportIcon from "./icons/IconSupport.vue";
 
     <b style="font-weight: bold">Our first year</b>
     <p>
-      <a style="margin-top: 10px" href="https://instagram.com/biaringataja">
+      <a
+        style="margin-top: 10px"
+        href="https://instagram.com/satutahununtukselamanya"
+      >
         Lihat di sini ajaa
       </a>
     </p>
